@@ -9,6 +9,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
+  console.log("/ called");
   res.json({ message: "Hello from Express ES6 app 🚀" });
 });
 
